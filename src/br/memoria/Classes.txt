@@ -1,0 +1,60 @@
+CLASSES DO SISTEMA:
+
+- Ajuda.java
+  Classe criada para mostrar a tela AJUDA.
+  
+- Carta.java
+  Essa classe representa uma carta. Cada instância de carta possui alguns atributos,
+  que representam se ela está virada para cima, se ela já foi encontrada, a imagem
+  que ela mostra, a posição em que ela está, e o valor que vai comparar na hora de
+  encontrar seu par. 
+  
+- DBAdapter.java
+  http://ptandroid.com/tutorial-de-desenvolvimento-de-aplicacoes-para-android-parte-24/
+  Uma classe que recebe um banco de dados, e que possui métodos para facilitar a inserção,
+  busca e operações de abrir e fechar o banco de dados para receber dados.
+  (link com tutorial acima)
+  
+- DBHelper.java
+  Classe que cria o banco de dados. Nela colocamos a instrução SQL que será executada
+  para criar o banco, no momento que o aplicativo é instalado no celular 
+  
+- Fim.java
+  A classe que é executada depois que termina um jogo. Nela é exibido o tempo e a quantidade
+  de clicks na tela.
+
+- ImageAdapter.java
+  http://developer.android.com/resources/tutorials/views/hello-gridview.html
+  Classe que insere as imagens uma por uma quando é criada a tela do jogo, e que configura
+  os atributos da imagem (tamanho, margem, imagem padrão, etc). O código dela está no 
+  blog oficial do android, junto com o tutorial, que explica como utilizar essa classe.
+  (link acima)
+
+- Jogo.java
+  A classe mais importante, que gerencia todo o jogo. Embaralha as cartas, executa a ação
+  de virar e desvirar as cartas, compara se são iguais, verifica se todas foram encontradas,
+  calcula o tempo e a quantidade de clicks, etc. 
+
+- MemoriaActivity.java
+  Tela padrão que é executada quando o jogo começa. Só possui botões de navegação, e para 
+  iniciar um novo jogo.
+
+- Novo.java 
+  Classe que inicia antes de um novo jogo, e onde o usuário irá informar um nome, para 
+  exibir no ranking
+
+- Recordes.java
+  Classe que exibe a tela com os recordes, e que puxa os dados do banco de dados da aplicação.
+  Como na classe DBAdapter criamos um método que retorna um array de linhas da coluna, nessa
+  tela programamos para ela chamar esse método e ir inserindo os dados retornados em cada 
+  linha.
+
+- Sobre.java
+  Classe que exibe a tela "sobre"
+  
+ CONSIDERAÇÕES IMPORTANTE
+  
+  todas as classes que estendem Activity (ou seja, que são telas) devem ser especificadas no
+  arquivo AndroidManifest.xml. É nele que damos as permissões para a aplicação, e que
+  especificamos quais são as telas da aplicação, e qual é a principal, que será executada
+  quando abrir o aplicativo.
