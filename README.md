@@ -18,8 +18,8 @@ Esse aplicativo foi o resultado final de algumas aulas lecionadas por mim. Desen
 
 # Screenshots
 
-<img src="http://desmond.imageshack.us/Himg191/scaled.php?server=191&filename=telainicial.png&res=landing">
-<img src="http://desmond.imageshack.us/Himg684/scaled.php?server=684&filename=telajogo.png&res=landing">
+<img src="http://desmond.imageshack.us/Himg191/scaled.php?server=191&filename=telainicial.png&res=landing">  
+<img src="http://desmond.imageshack.us/Himg684/scaled.php?server=684&filename=telajogo.png&res=landing">  
 <img src="http://desmond.imageshack.us/Himg715/scaled.php?server=715&filename=fimjogo.png&res=landing">
 
 
